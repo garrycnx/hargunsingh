@@ -1,0 +1,98 @@
+body
+{
+    background-color: #EAF6F6;
+
+}
+
+.one{
+    height: 400px;
+    width: 300px;
+    margin-top: 1%;
+    border-style: solid;
+}
+.bdyimg
+{
+   background-image: url(/Image/frnt.jpg);
+  background-repeat: no-repeat;
+  
+  
+}
+.dddd
+{
+    margin-top: 8rem;
+    margin-left: 55rem;
+    transform: rotate(2.5deg);
+ }
+ .hdr{
+        margin-left: 35rem;
+
+}
+
+.syhdr
+{
+    color: rgb(255, 19, 2);
+    margin-top: 15rem;
+    margin-left: 20rem;
+
+
+}
+
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: yellowgreen;
+
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 4rem;
+    left: 42rem;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.container span {
+    display: block;
+}
+
+.text1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    margin-bottom: 1rem;
+    background: yellowgreen;
+    position: relative;
+    animation: text 5s 1;
+}
+
+.text2 {
+    font-size: 30px;
+    color: darkgreen;
+    font-family: Georgia, serif;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+
+    30% {
+        letter-spacing: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    85% {
+        letter-spacing: 0.5rem;
+        margin-bottom: -40px;
+    }
+}
+
+
